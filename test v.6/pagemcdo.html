@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedyFood</title>
+    <link rel="stylesheet" href="pagemcdo.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.38KyL-qmCzjP5BG5CE6AFgHaFn%26pid%3DApi&f=1&ipt=49d9a44d1170ca6619476a0ecc583f2c70e605236280fa48e300a3fd06abf705&ipo=images" alt="logo" class="limg">
+        <a href="pageacceuil.html"><button class="button">page accueil</button></a>
+        <a href="pageresto.html"><button class="button">page restaurant</button></a>
+      </div>
+
+    <div class="accordion">
+        <!-- Dépliant 1 -->
+        <div class="accordion-item">
+            <button class="accordion-button">Nos Menus</button>
+            <div class="panel">
+                <button class="image-button" onclick="showImage(1, 1)">Le Menu Best Of</button>
+                <button class="image-button" onclick="showImage(1, 2)">Le Menu Maxi Best Of</button>
+                <button class="image-button" onclick="showImage(1, 3)">Le Menu McFirst</button>
+
+                <button class="image-button" onclick="showImage(1, 4)">Le Menu happy Meal</button>
+                <button class="image-button" onclick="showImage(1, 5)">Le Menu Salade</button>
+                <button class="image-button" onclick="showImage(1, 6)">Le Menu Brunch</button>
+                <button class="image-button" onclick="showImage(1, 7)">Le Menu Duo Salé</button>
+                <button class="image-button" onclick="showImage(1, 8)">Le Menu Duo Sucré</button>
+                <button class="image-button" onclick="showImage(1, 9)">Le Menu McSmart</button>
+                <button class="image-button" onclick="showImage(1, 10)">Le Menu McSmart+</button>
+
+                  <div class="image-display">
+                      <button class="prev" onclick="prevImage(1)">&#9664;</button>
+                      <img id="image-1" src="https://img.lovepik.com/element/45009/4406.png_860.png " alt="Image 1" class="image">
+                      <button class="next" onclick="nextImage(1)">&#9654;</button>
+                  </div>
+            </div>
+        </div>
+
+        <!-- Dépliant 2 -->
+        <div class="accordion-item">
+            <button class="accordion-button">Nos Burgers</button>
+            <div class="panel">
+                <button class="image-button" onclick="showImage(2, 1)">Image 2.1</button>
+                <button class="image-button" onclick="showImage(2, 2)">Image 2.2</button>
+                <button class="image-button" onclick="showImage(2, 3)">Image 2.3</button>
+                <div class="image-display">
+                    <button class="prev" onclick="prevImage(2)">&#9664;</button>
+                    <img id="image-2" src="image2-1.jpg" alt="Image 2" class="image">
+                    <button class="next" onclick="nextImage(2)">&#9654;</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dépliant 3 -->
+        <div class="accordion-item">
+            <button class="accordion-button">Nos Boissons</button>
+            <div class="panel">
+                <button class="image-button" onclick="showImage(3, 1)">Image 3.1</button>
+                <button class="image-button" onclick="showImage(3, 2)">Image 3.2</button>
+                <button class="image-button" onclick="showImage(3, 3)">Image 3.3</button>
+                <div class="image-display">
+                    <button class="prev" onclick="prevImage(3)">&#9664;</button>
+                    <img id="image-3" src="image3-1.jpg" alt="Image 3" class="image">
+                    <button class="next" onclick="nextImage(3)">&#9654;</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dépliant 4 -->
+        <div class="accordion-item">
+            <button class="accordion-button">Nos Desserts</button>
+            <div class="panel">
+                <button class="image-button" onclick="showImage(4, 1)">Image 4.1</button>
+                <button class="image-button" onclick="showImage(4, 2)">Image 4.2</button>
+                <button class="image-button" onclick="showImage(4, 3)">Image 4.3</button>
+                <div class="image-display">
+                    <button class="prev" onclick="prevImage(4)">&#9664;</button>
+                    <img id="image-4" src="image4-1.jpg" alt="Image 4" class="image">
+                    <button class="next" onclick="nextImage(4)">&#9654;</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dépliant 5 -->
+        <div class="accordion-item">
+            <button class="accordion-button">Petite Faim</button>
+            <div class="panel">
+                <button class="image-button" onclick="showImage(5, 1)">Image 5.1</button>
+                <button class="image-button" onclick="showImage(5, 2)">Image 5.2</button>
+                <button class="image-button" onclick="showImage(5, 3)">Image 5.3</button>
+                <div class="image-display">
+                    <button class="prev" onclick="prevImage(5)">&#9664;</button>
+                    <img id="image-5" src="image5-1.jpg" alt="Image 5" class="image">
+                    <button class="next" onclick="nextImage(5)">&#9654;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="pagemcdo.js"></script>
+</body>
+</html>

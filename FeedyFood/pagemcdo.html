@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedyFood</title>
+    <link rel="stylesheet" href="pagemcdo.css">
+</head>
+<body>
+    <h1>FeedyFood</h1>
+    <img src="https://logodownload.org/wp-content/uploads/2014/04/mcdonalds-logo-8.png" alt="Image du restaurant 1" width=20% height= 20%>
+    <div>
+      <a href="pageacceuil.html"><button>Retour sur l'acceuil</button></a>
+      <a href="pageresto.html"><button>Retour sur la carte de restaurants</button></a>
+    </div>
+    
+    <!-- Boutons pour afficher chaque cartouche -->
+    <button onclick="showCartouche('cartouche1')">Nos Menus</button>
+    <button onclick="showCartouche('cartouche2')">Nos Burgers</button>
+    <button onclick="showCartouche('cartouche3')">Nos Salades du Jour</button>
+    <button onclick="showCartouche('cartouche4')">Petite Faim</button>
+    <button onclick="showCartouche('cartouche5')">Nos Boissons</button>
+    <button onclick="showCartouche('cartouche6')">Nos Desserts</button>
+    <button onclick="showCartouche('cartouche7')">Nos Frites & Sauces</button>
+    
+    <!-- Cartouche 1 -->
+    <div id="cartouche1" class="cartouche">
+        <div class="solobutton">
+           <button>Parcourir Nos Menus en détail</button>
+        </div>
+        <div>
+          <h3>Le Menu Best Of</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt1d97098350f6ed7b/666c6d50dbf51dd18e92c8d0/MENU_BO_BigMac_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Menu Maxi Best Of</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltb34c8bcc882d2cc2/666c6d993723214b70e91f02/MENU_MBO_BigMac_400x400px_72DPI_V4.png?auto=webp&width=1280&disable=upscale" alt="">
+          <h3>Le Menu McFirst</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt45ea35ce76a6249f/66cc607e530ff4fe255e10b7/MENU_BO_McFirst_Boeuf_TBWA_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Menu Happy Meal</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt9ff9ed3282a85073/669e2d37f09162474fd89bd9/MENU_HappyMeal_Hamburger_400x400px_72DPI_V3_(1).png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Menu Salade</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltb7fc31179a86e8db/652523730156033104e4d8a6/MENU_NEW_SALADE_CLASSIQUE_CAESAR_VAE.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Menu Brunch</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt7333d5cf785d74db/66cc8273980a9ec286942220/MENU_BRUNCH_VAE_TBWA_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Menu Duo Salé</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt8b3a9ecb8b81044b/66cc8212d2a5520393d2a9df/Duo_Sale%CC%81_VAE_TBWA_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Menu Duo Sucré</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt3b6177482ca7c2cc/66cc822a0af4d1087cad64dd/Duo_Sucre%CC%81_VAE_TBWA_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Menu McSmart</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltdd7005226c1a2b81/66cc60d4f3ae86f65830369b/MENU_McSmart_WRAP_GLOBAL_400x400px_72DPI_V3.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Menu McSmart+</h3>
+        </div>
+    </div>
+
+    <!-- Cartouche 2 -->
+    <div id="cartouche2" class="cartouche">
+        <div class="solobutton">
+          <button>Parcourir Nos Burgers en detail</button>
+        </div>
+        <div>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt1731e8b1dade0a71/66f4226acbb9dd04db5e0506/McPlant_Nuggets_x4_LOGO_TBWA_400x400px_300DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Les Veggies McPlant Nuggets</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt31313c23266caa83/66a221203ebd73e67ef8d444/Filet-O-Fish_LOGO_GLOBAL_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Filet-O-Fish</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt85e4d80458d2b5ee/66ec3019b6d6f865f9c18b1f/4MDO005_400x400_COMPOS_FOFDELUXE_SEUL_M1.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Filet-O-Fish Deluxe</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt24322a845362b210/667e7ff8628e4365661eb181/McFish_Mayo_LOGO_GLOBAL_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McFish Mayo</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt03f35e2b606ae2c5/666c674663daa857dea918d5/McFish_Ketchup_GLOBAL_LOGO_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McFish</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt8f125a846d60b3e7/607ffe5cf77631234c4b45db/66789245c6dd98a5cd0730195536ee9b46c494bb.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Croque McDo</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt49501131b502930f/66cc5f2836cebe1d8bfc4932/GRAND_WRAP_CHEVRE_LOGO_TBWA_400x400px_72DPI_V3.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McWrap Chèvre</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltbcc489cfcb6a92b7/666c674524c3b3fc19c8b9a2/McChicken_GLOBAL_400x400px_300DPI_V4.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McChicken</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltf858afc7847ba79d/66cc5b86fc4e21714c727bb6/McFirst_Fish_LOGO_TBWA_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McFirst Poisson</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt2b47e0f28b8e53d7/666c673775b6dfc234a08c52/Cheeseburger_GLOBAL_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Cheeseburger</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt619aa3b65e860ac8/66cc5c80ac1dab17d21a8aa4/McMuffin_Egg&Cheese_LOGO_TBWA_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Egg & Cheese McMuffin</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt8af77e0ff10215be/66cc59963c5398715ebd58fa/CBO_TBWA_400x400px_72DPI_V5.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le CBO</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt615b9006573fd15e/667021dcc87a294b871df99b/Hamburger_GLOBAL_400x400_72DPI_.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Hamburger</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt85b28890311d4ac7/66cc5f62e0b3446f37fe5276/GRAND_WRAP_POULET_TBWA_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McWrap New York & Poulet Bacon</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt53e76fa73b472f03/666c66deb01d0ed0814618a2/BigMac_GLOBAL_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Big Mac</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt885bde09a2045ddf/666c6757dcc15c3ea2f08435/Royal_Cheese_LOGO_GLOBAL_400x400px_300_DPI_V3.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Royal Cheese</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blta8945c5a88a2ad27/644918b33cb78210753e4df6/BAP_nuggets_20_large.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>La Boîte de 20 Chicken McNuggets</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt9e36841edcd93e8e/66cc5fbef4a825068c69ab5f/PETIT_WRAP_POULET_TBWA_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le P'tit Wrap Ranch</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltb0414953c6782471/66cc5c3155f74a22ac4f6f4f/McMuffin_Egg&Bacon_LOGO_TBWA_400x400px_72DPI_V3.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Egg & Bacon McMuffin</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltc73f85540c1e6479/667021331ab5959105ebf6d6/DoubleCheeseburger_GLOBAL_400x400px_300DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Double Cheeseburger</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt657a2c52468b17db/66cc5ed231537a3689c86dbd/ROYAL_DELUXE_LOGO_TBWA_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Royal Deluxe</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltadcf3a64c56a684d/666c6758f66fc66e0197fcf2/ROYALBACON_LOGO_GLOBAL_400x400px_300DPI_V4.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Royal bacon</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt3d0b309a18110e47/66cc5b4c721b0abf41477434/McFirst_Boeuf_TBWA_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McFirst boeuf</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blte4073a25ad4020f8/66cc5f9aecffb73e004490e7/PETIT_WRAP_CHEVRE_LOGO_TBWA_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le P'tit Wrap Chèvre</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt39847df4f7dade25/66cc5764fc4e214320727ba1/BIG_TASTY_1Viande_TBWA_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Big Tasty - 1 Steak Haché</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltdddaa8c828eb02ce/66cc5bc4e9bed01da953cbe7/McFirst_Poulet_TBWA_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McFirst Poulet</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltb24d349eb7134dc2/66cc585f781c432cdf20eaa4/BIG_TASTY_2Viande_TBWA_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Big Tasty - 2 Steak Haché</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltc0667700e5022812/666c6745ab84255b569bab61/DoubleCheeseBacon_GLOBAL_400x400px_300DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Double Cheese Bacon</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt8b6e104e7676c441/670d417b624d98f958361137/EXTREME_1Viande_TBWA_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>McExtreme - 1 Steak Haché</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt892013edb702519d/670d41dd923a09ee0d95cb3b/EXTREME_2Viandes_TBWA_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>McExtreme - 2 Steak Haché</h3>
+        </div>
+    </div>
+
+<!-- Cartouche 3 -->
+<div id="cartouche3" class="cartouche">
+    <div class="solobutton">
+       <button>Parcourir Nos Salades en détail</button>
+    </div>
+    <div>
+        <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt48f092fbaf8ade45/65264f76f17651ddf011e62f/NEW_SALADE_CLASSIC_CAESAR_VAE.png?auto=webp&width=320&disable=upscale" alt="">
+        <h3>Salade Caesar au poulet chaud et croustillant</h3>
+        <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blte92e36ca8f959aff/666c67570a8cfc266c9f206b/Salade_Italian_Mozza_P&B_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+        <h3>Salade Italian Mozza & Pasta</h3>
+        </div>
+    </div>
+
+    <!-- Cartouche 4 -->
+    <div id="cartouche4" class="cartouche">
+        <div class="solobutton">
+          <button>Parcourir les Petite Faim</button>
+        </div>
+        <div>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt8f125a846d60b3e7/607ffe5cf77631234c4b45db/66789245c6dd98a5cd0730195536ee9b46c494bb.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Le Croque McDo</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blte4073a25ad4020f8/66cc5f9aecffb73e004490e7/PETIT_WRAP_CHEVRE_LOGO_TBWA_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Le P'tit Wrap Chèvre</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt9e36841edcd93e8e/66cc5fbef4a825068c69ab5f/PETIT_WRAP_POULET_TBWA_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Le P'tit Wrap Ranch</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt708795015ade86b1/666c6757273e5364af4f83ae/Nuggets_x4_GLOBAL_LOGO_400x400_72DPI_.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Les Chicken McNuggets</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt1731e8b1dade0a71/66f4226acbb9dd04db5e0506/McPlant_Nuggets_x4_LOGO_TBWA_400x400px_300DPI.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Les Veggie McPlant Nuggets </h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt615b9006573fd15e/667021dcc87a294b871df99b/Hamburger_GLOBAL_400x400_72DPI_.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Le Hamburger</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt761a37fc529ebedc/66cc5e5aded956cf17dc828b/Ptit_Boeuf_DELUXE_TBWA_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Le P'tit Boeuf Sauce Deluxe</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt619aa3b65e860ac8/66cc5c80ac1dab17d21a8aa4/McMuffin_Egg&Cheese_LOGO_TBWA_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Le Egg & Cheese McMuffin</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltb0414953c6782471/66cc5c3155f74a22ac4f6f4f/McMuffin_Egg&Bacon_LOGO_TBWA_400x400px_72DPI_V3.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Le Egg & Bacon McMuffin</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt03f35e2b606ae2c5/666c674663daa857dea918d5/McFish_Ketchup_GLOBAL_LOGO_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Le MCFish</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt2bf04a4b7d2569d9/66cc5e2f6e9ebab15829bab4/MDSA101-PETITE_SALADE.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>La P'tite Salade</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt2353460350bd893b/615db89a2cfedd733639a290/4079.jpg?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Le Donut Nature</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt6c2c07e7a4d9dae5/65cce1156a373e040a8986f9/2024_Ptit_Milkshake_Angle1_Vanilla_400x400.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Le P'tit Milkshake Saveur Vanille</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt3354fb18178b916b/65cce00a89e274040ab56521/2024_Ptit_Milkshake_Angle1_Strawberry_400x400.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Le P'tit Milkshake Saveur Fraise</h3>
+           <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt2acb4459dfaa5b90/6627e6a6a4c415ba53efca34/Visuel_P_tites_tomates.png?auto=webp&width=320&disable=upscale" alt="">
+           <h3>Les P'tites Tomates</h3>
+        </div>
+    </div>
+
+    <!-- Cartouche 5 -->
+    <div id="cartouche5" class="cartouche">
+        <div class="solobutton">
+          <button>Parcourir Nos Boissons</button>
+        </div>
+        <div>
+            <h1>Boisson Froide</h1>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blta66db817bb5642be/6217a599c27bcd6ae2b6b9f8/Cup_eau.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Eau By Mcdo - Plate Nature</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blta66db817bb5642be/6217a599c27bcd6ae2b6b9f8/Cup_eau.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Eau By Mcdo - Pétillante</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blta66db817bb5642be/6217a599c27bcd6ae2b6b9f8/Cup_eau.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Eau By Mcdo - Citron - Citron-Vert</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blta66db817bb5642be/6217a599c27bcd6ae2b6b9f8/Cup_eau.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Eau By Mcdo -Pétillante Citron - Citron-Vert</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blta66db817bb5642be/6217a599c27bcd6ae2b6b9f8/Cup_eau.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Eau By Mcdo - Fraise</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blta66db817bb5642be/6217a599c27bcd6ae2b6b9f8/Cup_eau.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Eau By Mcdo - Pétillante Fraise</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt355a4fe09249dd3a/666c67577bb5b531f6782c6d/VERRE_MOYEN_COCA_Zero_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Coca-Cola Sans-Sucres</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt6d51377bf381e9d2/66957172f091625529d891a6/VERRE_MOYEN_COCA_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Coca-Cola</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blte12c314f20957f4f/66cc5adce0768f12f930ebc3/MOYEN_VERRE_SPRITE_GLOBAL_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3> Sprite Sans-Sucres</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt78a51b464c3c8314/66cc5a26a955bd1475d5c43f/MOYEN_VERRE_FANTA_GLOBAL_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Fanta Goût Original Sans-Sucres</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt13bf8530a6fa049c/66cc5ab2f4a825142669ab58/MOYEN_VERRE_MinuteMaid_GLOBAL_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Minute Maid Orange</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltbe0add3da36265c2/66cc5a62a75eae4a1b934572/MOYEN_VERRE_LIPTON_PECHE_GLOBAL_400x400px_72DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Lipton Ice Tea Sans-Sucres</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt2d55d61f89d3171c/66cc5a88caed9d3275ed21f7/MOYEN_VERRE_LIPTON_GREEN_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Lipton Ice Tea Green Sans-Sucres</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blte047a4e3edb856e4/64490fcb5d04264cbf309dc3/NECTARBIO.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Nectar De Pomme Bio</h3>
+
+          <h1>Boisson Chaude</h1>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt1067621bd3c3d147/64491224143999297a6b4b9c/5502_-_NEW-MC-CAFE_KRAFT_CAFE-LATTE_0_2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Café Latté</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt980d6ebc464800d4/644912a1f9a180109753558a/5702_-_NEW-MC-CAFE_KRAFT_EXPRESSO_0_07.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>L'Espresso</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltf028701be7df50c0/644912d370b9db4412a2385a/5705_-_NEW-MC-CAFE_KRAFT_DOUBLE-EXPRESSO_0_2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Double Espresso</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltdbff5194339bb53e/6449131d72ccd238e6adac21/5706_-_NEW-MC-CAFE_KRAFT_RISTRETTO_0_07.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Ristretto</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltc9fcd847bfbad580/6449125010ab6f6feae04e84/5700_-_NEW-MC-CAFE_KRAFT_CAFE-ALLONGE_0_2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Café Allongé</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt4e93adb203a4b534/6449138e8f72c043efa6af00/10194_-_NEW-MC-CAFE_KRAFT_CAFE-ALLONGE_0_4.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Café Allongé Décaféiné</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltdf17ab012f603ca7/6449145c1fe845499fb69eda/5702_-_NEW-MC-CAFE_KRAFT_EXPRESSO_0_07.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>L'Espresso Décaféiné</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt055cf669f4aa4758/644914a18d6b9a3797e5553a/10662_-_NEW-MC-CAFE_KRAFT_CAFE-VIENNOIS_0_2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Café Viennois</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt53b5d246c572602f/644915d63363ac6fe93f5fdd/5707-_NEW-MC-CAFE_KRAFT_CAPUCCINO_0_2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Cappuccino</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltd9d9d0e5f4b4ca8b/6449115cd2002548587a2a4e/5503_-_NEW-MC-CAFE_KRAFT_CAPUCCINO-DAIM_0_2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Cappuccino Daim</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltf90d694beaff388f/65452a75943bb8040af59c27/MicrosoftTeams-image_(5).png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Thé</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blta160ebab540bedf4/615daf7172f27552bdb910c0/5510.jpg?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Chocolat Chaud</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltade9430cf20e5afa/615db0a1e626b31b3ec0e67a/10665.jpg?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Chocolat Chaud Viennois</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt7cf2fe711a8c26d7/644916087a2d424b844f8a0f/10662_-_NEW-MC-CAFE_KRAFT_CAFE-VIENNOIS_0_2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Mocha Viennois</h3>
+        </div>
+    </div>
+
+    <!-- Cartouche 6 -->
+    <div id="cartouche6" class="cartouche">
+        <div class="solobutton">
+          <button>Parcourir Nos Desserts</button>
+        </div>
+        <div>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blte1fb00dfae591a54/670e64c1881bc3c3c8dcb3c5/4MDO014_400x400px_COMPOS_REUSE_McFLURRY_BLENDERS_M1_RVB.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McFlurry</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt4efb7cfdeb4a1c0c/6717971136ff97094f7d15f2/McFLURRY_ToutDoux_TBWA_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McFlurry au Miel</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltced3f85c1d9a92fb/66a37cf54363797573e49b0c/McFlurry-Pe%CC%81tillant.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McFlurry Sucre Pétillants Fraise</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt0b4faca4ac6e9757/650d86f0063da8915aeaaa5e/400x400-2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Sundae</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltb0324ed268ed159b/661ff08f1de00b3338d47db8/CONE_SAVEUR_VANILLE2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Cône Saveur Vanille</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltaf8cc744cb26a389/61d863b032ec9d3f29aa2963/1786.jpg?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le P'tit Glacé Saveur Vanille</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blte84ad529dc668515/642d49adcab9e0115422ad93/PTITEPOMME_(5).png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>La P'tit Pomme</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt447609dfb0ac80d9/656f09cb166ba10407eedaf4/MDN3146-14_ECRAN_ANANAS_400x400px_V0.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le P'tit Ananas</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltb2f3e6c7dbe3c3fa/615db24143d9ce56ce303cbd/11917.jpg?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Bio à Boire Fraise</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt5ffc50699fb84638/61dd78c38eaa330238b902d0/berlingo-fruits.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Berlingo'Fruits</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt5ffc50699fb84638/61dd78c38eaa330238b902d0/berlingo-fruits.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Muffin Saveur Chocolat Noisette</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltcb474d81b2823684/615db93972f27552bdb917f2/502421.jpg?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Cookie Fourré Choconuts</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt96df574f43233097/615dc436e6463f2c6c71bb0d/4383.jpg?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Brownie Chocolat</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt2353460350bd893b/615db89a2cfedd733639a290/4079.jpg?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Donut Nature</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt1e85279c1460bb94/615db366d932354978cb7b7a/11439.jpg?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le Duo De Macarons</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt6c2c07e7a4d9dae5/65cce1156a373e040a8986f9/2024_Ptit_Milkshake_Angle1_Vanilla_400x400.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le P'tit MilkShake Saveur Vanille</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt3354fb18178b916b/65cce00a89e274040ab56521/2024_Ptit_Milkshake_Angle1_Strawberry_400x400.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le P'tit Milkshake Saveur Fraise</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt2b131015dbe0ecdb/615dc419458af431a37c4451/11358.jpg?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Le McChocoNuts Nappage Choconuts</h3>
+       </div>
+    </div>
+
+    <!-- Cartouche 7 -->
+    <div id="cartouche7" class="cartouche">
+        <div class="solobutton">
+          <button>Parcourir Nos Frites</button>
+        </div>
+        <div>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltff36548d8c34bc7b/666c675a59d342665289f4c3/PETITE_FRITES_LOGO_GLOBAL_400x400px_300DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>La petite Portion de Frites</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltc8005746d8bf42e9/666c67460a8cfc48f09f205f/MOYENNE_FRITES_LOGO_GLOBAL_400x400px_300DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>La moyenne Portion de Frites</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt98e3c4454d83e59d/666c67453a515525d29e20d3/GRANDE_FRITES_LOGO_GLOBAL_400x400px_300DPI_V2.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>La grande Portion de Frites</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt74a3cc2867ee3f74/666c67460a8cfcd67f9f2063/MOYENNE_POTATOES_GLOBAL_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>La moyenne Portion de Deluxe Potatoes</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt402c651b7ec19f76/666c67457172c14d2bf90039/GRANDE_POTATOES_GLOBAL_400x400px_72DPI.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>La grande Portion de Deluxe Potatoes</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt448a9f73a854302b/6570aae74bf0bf040a8ea9f9/McFlavors_Double_Cheddar_VAE_LAD.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Les McFlavor Fries Double Cheddar Fondu</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltbe37360438edade6/6570aae7a0b03e040a725fd5/McFlavors_Cheddar&Bacon_VAE_LAD.png?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Les McFlavor Fries Double Cheddar Fondu - Bacon</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/bltd2b4028eab2a848c/662b96e8c43d2b1ebe8f1506/13550.jpg?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Les Potatoes Double Cheddar Fondu</h3>
+          <img src="https://eu-images.contentstack.com/v3/assets/blt5004e64d3579c43f/blt5def8d75d9153aee/662b96e8dfd8b00e9484e7de/13549.jpg?auto=webp&width=320&disable=upscale" alt="">
+          <h3>Les Potatoes Cheddar Fondu - Bacon</h3>
+        </div>
+    </div>
+
+    <script src="pagemcdo.js"></script>
+</body>
+</html>
+

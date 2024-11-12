@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(255,233,234);
+    background: radial-gradient(circle, rgba(255,233,234,1) 37%, rgba(255,253,132,1) 100%);
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    background: #ce0c0c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6e0d0d;
+}
+
+.cartouche {
+    display: none; /* Masquée par défaut */
+    margin-top: 20px;
+    padding: 5%;
+    background-color: #ffffff;
+    border: 2px solid #ce0c0c;
+    border-radius: 8px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+
+.button-cartouche {
+    padding: 10% 20%;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+.img{
+    padding: 10% 20%;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.solobutton{
+    justify-content: flex-start;
+} 

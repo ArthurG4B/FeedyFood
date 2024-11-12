@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedyFood</title>
+    <link rel="stylesheet" href="pagebk.css">
+</head>
+<body>
+    <h1>FeedyFood</h1>
+    <img src="https://cdn.prod.website-files.com/5ee732bebd9839b494ff27cd/5ef0a3d4299cb9f4f7ea67c4_Burger-King-Logo.png" alt="Image du restaurant 1" width=20% height= 20%>
+    <div>
+      <a href="pageacceuil.html"><button>Retour sur l'acceuil</button></a>
+      <a href="pageresto.html"><button>Retour sur la carte de restaurants</button></a>
+    </div>
+    
+    <!-- Boutons pour afficher chaque cartouche -->
+    <button onclick="showCartouche('cartouche1')">Menus</button>
+    <button onclick="showCartouche('cartouche2')">Burgers</button>
+    <button onclick="showCartouche('cartouche3')">Menus Enfant</button>
+    <button onclick="showCartouche('cartouche4')">Snacks</button>
+    <button onclick="showCartouche('cartouche5')">Desserts</button>
+    
+    <!-- Cartouche 1 -->
+    <div id="cartouche1" class="cartouche">
+        <div class="solobutton">
+           <button>Parcourir Menus en détail</button>
+        </div>
+        <div>
+            <img src="https://burgerkingfrance.twic.pics/img/menu/f8fee682-ae1f-43d9-9a69-2f52e3c5521d_?twic=v1/contain=250x250" alt="">
+            <h3>Master Montagnard</h3>
+            <img src="https://burgerkingfrance.twic.pics/img/menu/7bc2c81e-25b4-4c23-8200-c110f4418d9a_?twic=v1/contain=250x250" alt="">
+            <h3>Master Montagnard Poivre</h3>
+            <img src="https://burgerkingfrance.twic.pics/img/menu/1d79173f-c92b-44ea-8599-a681a54668f5_?twic=v1/contain=250x250" alt="">
+            <h3>Master Montagnard Poulet</h3>
+            <img src="https://burgerkingfrance.twic.pics/img/menu/ee2b1560-eada-4ec0-a506-84aadaebbe75_?twic=v1/contain=250x250" alt="">
+            <h3>Master Rösti Montagnard</h3>
+            <img src="https://burgerkingfrance.twic.pics/img/menu/95c83ebe-483e-4f9c-a140-839566ae26f5_?twic=v1/contain=250x250" alt="">
+            <h3>Master Cantal Bacon</h3>
+            <img src="https://burgerkingfrance.twic.pics/img/menu/74993892-ea46-43e7-b06b-af962441e32b_?twic=v1/contain=250x250" alt="">
+            <h3>Master Poulet Cantal</h3>
+            <img src="https://burgerkingfrance.twic.pics/img/menu/396fc8e0-4692-4023-b445-54310871c341_?twic=v1/contain=250x250" alt="">
+            <h3>Chicken Spicy</h3>
+            <img src="https://burgerkingfrance.twic.pics/img/menu/9ddf5f70-cf28-45ec-8cee-35a0b58acbb8_?twic=v1/contain=250x250" alt="">
+            <h3>Veggie Chicken SteakHouse</h3>
+            <img src="https://burgerkingfrance.twic.pics/img/menu/987ace6f-5e2c-42f0-9db6-d54a0d083f86_?twic=v1/contain=250x250" alt="">
+            <h3>Veggie Double Cheese Bacon XXL</h3>
+            <img src="https://burgerkingfrance.twic.pics/img/menu/95cce87a-2f58-4527-91b0-f973e9729176_?twic=v1/contain=250x250" alt="">
+            <h3>Double SteakHouse</h3>
+        </div>
+    </div>
+
+    <!-- Cartouche 2 -->
+    <div id="cartouche2" class="cartouche">
+        <div class="solobutton">
+          <button>Parcourir Nos Burgers en detail</button>
+        </div>
+        <div>
+            <img src="https://burgerkingfrance.twic.pics/img/products/8/0a/80ac8088-c5da-44ff-ae63-2ec839717a09_?twic=v1/contain=250x250" alt="">
+            <h3>Chicken Spicy</h3>
+            <img src="https://burgerkingfrance.twic.pics/img/products/1/dc/1dc2c4b2-3731-4ec2-8e70-02f259c7fe67_?twic=v1/contain=250x250" alt="">
+            <h3>Triple Cheese</h3>
+            </div>
+        </div>
+    </div>
+
+<!-- Cartouche 3 -->
+    <div id="cartouche3" class="cartouche">
+        <div class="solobutton">
+          <button>Parcourir Menus Enfant en détail</button>
+        </div>
+        <div>
+          <img src="https://burgerkingfrance.twic.pics/img/menu/68d52164-f1b9-43fc-a726-861af999b539_?twic=v1/contain=250x250" alt="">
+          <h3>King Junior</h3>
+        </div>
+    </div>
+
+    <!-- Cartouche 4 -->
+    <div id="cartouche4" class="cartouche">
+        <div class="solobutton">
+          <button>Parcourir les Snacks</button>
+        </div>
+        <div>
+           <img src="https://burgerkingfrance.twic.pics/img/products/f/91/f91e8ee3-e951-49f1-9dec-22ac6c74fb03_?twic=v1/contain=250x250" alt="">
+           <h3>King Wings</h3>
+           <img src="https://burgerkingfrance.twic.pics/img/products/9/51/95109ca5-1bc0-47a7-a19c-91ca2d0ec948_?twic=v1/contain=250x250" alt="">
+           <h3>Chili Cheese</h3>
+        </div>
+    </div>
+
+    <!-- Cartouche 5 -->
+    <div id="cartouche5" class="cartouche">
+        <div class="solobutton">
+          <button>Parcourir Desserts</button>
+        </div>
+          <img src="https://burgerkingfrance.twic.pics/img/products/0/e5/0e5c4030-64c1-410a-8884-cf348d48f4ab_?twic=v1/contain=250x250" alt="">
+          <h3>King Sundae Chocolat</h3>
+          <img src="https://burgerkingfrance.twic.pics/img/products/a/06/a06167de-fc69-48f0-95a1-1bb3b63d2243_?twic=v1/contain=250x250" alt="">
+          <h3>Muffin Chocolat Noisette</h3>
+    </div>
+
+    <script src="pagebk.js"></script>
+</body>
+</html>
+
